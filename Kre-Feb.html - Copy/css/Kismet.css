@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#AHPO {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-family: 'Playfair Display', serif;
+  text-shadow: -1px 1px 1px rgb(0, 0, 0);
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  min-height: 10vh;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  text-align: left;
+}
+
+.info-text {
+  margin: 50px;
+  top: 50%;
+  left: 50%;
+  color: rgb(0, 2, 59);
+}
+
+.info-text h1 {
+    font-size: 50px;
+}
+
+.info-text p {
+    font-size: 17px;
+}
+
+.ship-row { 
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.ship-img {
+  width: 850px;
+  flex-shrink: 0;
+  aspect-ratio: 16 / 9;
+}
+
+.ship-img img {
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
+
+.ship-text {
+    max-width: 2000px;
+    flex: 1;
+}
+
+.ship-text h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.ship-text p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.ship-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.profil-row { 
+  align-items: center;
+  gap: 30px;
+  display: flex;
+  background-color: black;
+}
+
+.profile-img {
+  width: 200px;
+  flex-shrink: 0;
+  background-color: black;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  color: black;
+}
+
+.profile-text {
+    background-color: black;
+}
+
+.profile-text h2 {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+.profile-text p {
+    font-size: 17px;
+    text-align: left;
+    color: white;
+}
